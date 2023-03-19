@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100vw;
+    height: 100vh;
+    border: 4mm ridge rgba(0, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-image: conic-gradient(at 49% 30%, cyan,rgb(17, 17, 78),cyan); 
+}
+.text1{
+    width: 100vw;
+    height: 15vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1 h1{
+    font-size: 8vw;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.cake{
+    width: 100vw;
+    height: 50vh;
+    
+}
+.bottom-layer{
+    position: absolute;
+    bottom: 30vh;
+    left: 30vw;
+    height: 12vh;
+    width: 40vw;
+    background:#fcbf29;
+}
+.center-layer{
+    position: absolute;
+    bottom: 40.7vh;
+    left: 30vw;
+    height: 12vh;
+    width: 40vw;
+    background:#fcbf29;
+    transform: scale(0.8);
+}
+.top-layer{
+    position: absolute;
+    bottom: 49.1vh;
+    left: 30vw;
+    height: 12vh;
+    width: 40vw;
+    background:#fcbf29;
+    transform: scale(0.6);
+}
+.top-top-layer{
+    position: absolute;
+    bottom: 55.1vh;
+    left: 30vw;
+    height: 12vh;
+    width: 40vw;
+    background:#fcbf29;
+    transform: scale(0.4);
+}
+
+.line{
+    position: absolute;
+    height: 1.5vh;
+    width: 40vw;
+    background: #fedbad;
+    top: 8vh;
+}
+.design1{
+    position: absolute;
+    height: 5vh;
+    width: 10vw;
+    background:#994c10;
+    top: 0vh;
+    left: 0vw;
+    border-radius: 0px 0px 100px 100px;
+}
+.design2{
+    position: absolute;
+    height: 5vh;
+    width: 10vw;
+    background:#994c10;
+    top: 0vh;
+    left: 10vw;
+    border-radius: 0px 0px 100px 100px;
+
+}
+.design3{
+    position: absolute;
+    height: 5vh;
+    width: 10vw;
+    background:#994c10;
+    top: 0vh;
+    left: 20vw;
+    border-radius: 0px 0px 100px 100px;
+}
+.design4{
+    position: absolute;
+    height: 5vh;
+    width: 10vw;
+    background:#994c10;
+    top: 0vh;
+    left: 30vw;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.candle{
+    position: absolute;
+    left: 48vw;
+    bottom: 63.5vh;
+    height: 5vh;
+    width: 3vw;
+    background: repeating-linear-gradient(
+        45deg,
+        #fd3018 0,
+        #fd3018 5px,
+        #ffa89e 5px,
+        #ffa89e 10px
+    );
+}
+.fire{
+    position: absolute;
+    left: 47.5vw;
+    bottom: 69vh;
+    height: 16px;
+    width: 16px; 
+    background: #ffa500;
+    border-radius: 0px 50px 50px 50px;
+    rotate: 45deg;
+}
+
+
+
+.text2{
+    width: 100vw;
+    height: 15vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 h2{
+    font-size: 6vw;
+    font-family: 'Playball', cursive;
+    color: aqua;
+}
+
+.balloon{
+    width: 100vw;
+    height: 20vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    animation-name: balloon-ani;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    transition: all 5s ease-in;
+    
+}
+.balloon h1{
+    font-size: 14vw;
+
+}
+
+
+
+@keyframes balloon-ani {
+    from{
+     top: 0px;
+     bottom: 1250px; 
+
+    }
+    to{
+      bottom: 0px; 
+     
+    }
+ 
+ }
+ 
+
+
+
+
+
+
+
+
+
+
